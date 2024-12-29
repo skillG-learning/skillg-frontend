@@ -25,9 +25,9 @@ const Navbar = () => {
             <Button className="menuButton" type="text" onClick={showDrawer}>
               <MenuOutlined />
             </Button>
-            <div className="rightMenu">
+            {/* <div className="rightMenu">
               <RightMenu mode={"horizontal"} />
-            </div>
+            </div> */}
 
             <Drawer
               title={"Brand Here"}
@@ -38,7 +38,7 @@ const Navbar = () => {
               style={{ zIndex: 99999 }}
             >
               <LeftMenu mode={"inline"} />
-              <RightMenu mode={"inline"} />
+              {/* <RightMenu mode={"inline"} /> */}
             </Drawer>
           </div>
         </Layout.Header>

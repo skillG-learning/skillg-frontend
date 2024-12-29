@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaGithub, FaMapMarkerAlt, FaPhone, F
 
 const Footer = () => {
     return (
-        <footer className="flex footer-distributed bg-[#1f2937] text-white py-14 px-10">
+        <footer className="flex flex-wrap footer-distributed bg-[#1f2937] text-white py-14 px-10">
             
             <div className="footer-left md:w-2/5 w-full mb-10 md:mb-0">
                 <h3 className="text-3xl font-semibold">
