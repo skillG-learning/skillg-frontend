@@ -32,7 +32,7 @@ function SkillGText() {
             </div>
 
             {/* Lottie Animation as Background */}
-            <div className="absolute top-[100px] left-[25%] w-full h-full z-0">
+            <div className="hidden sm:block absolute sm:top-[100px] left-[40%] w-full h-full z-0">
                 <Lottie options={defaultOptions} height={500} width={500} />
             </div>
         </div>

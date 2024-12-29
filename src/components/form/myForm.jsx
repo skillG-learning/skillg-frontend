@@ -16,7 +16,7 @@ const MyForm = () => {
 
     return (
         <Form
-            className='w-[590px] bg-gray-100 p-7 rounded-[10px]'
+            className='w-full sm:w-[590px] bg-gray-100 p-7 rounded-[10px]'
             form={form}
             layout="vertical"
             onFinish={onFinish}

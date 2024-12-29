@@ -2,7 +2,7 @@
 function Gallery() {
     return (
 
-        <div className=" w-[60%] mx-auto my-10 md:p-1 tansition delay-150 duration-300  ">
+        <div className=" w-[80%] sm:w-[60%] mx-auto my-10 md:p-1 tansition delay-150 duration-300  ">
 
             <h1 className=" text-xl sm:text-3xl text-black text-center font-bold m-7 ">Our Gallery</h1>
 
