@@ -1,22 +1,13 @@
-import Navbar from "./components/navbar";
 import './App.css';
-import LandingPage from "./views/landingPage";
-import AllCourses from "./views/courses";
-import AddonFeatures from "./views/feature"
-import Gallery from "./views/gallery";
-import BlogSlider from "./views/blogs";
-import Footer from "./components/footer";
+import AppRoutes from "./router";
+import axios from "axios";
 
+axios.defaults.baseURL = "http://localhost:401";
+axios.defaults.withCredentials = true;
 const App = () => {
   return (
     <div className="App">
-      <Navbar />
-      <LandingPage />
-      <AllCourses />
-      <AddonFeatures />
-      <Gallery />
-      <BlogSlider />
-      <Footer />
+      <AppRoutes />
     </div>
   )
 }
