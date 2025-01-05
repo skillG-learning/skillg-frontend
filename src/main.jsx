@@ -7,7 +7,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  // <StrictMode>
+  <>
     <App />
     <ToastContainer
       position="top-center"
@@ -21,5 +22,6 @@ createRoot(document.getElementById('root')).render(
       pauseOnHover
       theme="dark"
     />
-  </StrictMode>,
+  </>
+  // </StrictMode>,
 )
