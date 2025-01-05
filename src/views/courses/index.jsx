@@ -37,8 +37,6 @@ const AllCourses = () => {
         return <p>Error: {error}</p>;
     }
 
-    console.log(courses);
-
     return (
         <div className="w-[80%] my-0 mx-[auto]">
             <h1 className="text-xl sm:text-3xl text-black text-center font-bold m-7">Courses</h1>
