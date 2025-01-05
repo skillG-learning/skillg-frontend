@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Table, Button, Space, Modal, message } from "antd";
 import axios from "axios";
-import CreateCourse from "./CreateCourse"; // Assuming CreateCourse is in the same directory
+import CreateCourse from "./createCourse"; 
 import { toast } from "react-toastify";
 
 const AllCourses = () => {
