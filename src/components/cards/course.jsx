@@ -19,11 +19,11 @@ const CourseCard = ({ course }) => {
         <h2 className="text-xl font-semibold text-gray-800">{course.title}</h2>
         <p className="text-gray-600 mt-2">{course.desc}</p>
         <div className="mt-4">
-          {/* <Link to={"#"}> */}
-            <Button type="primary" className="w-full">
+          <Link to={`/course/detail/${course._id}`}>
+            <Button type="primary" className="w-full bg-[#001650]">
               Know More
             </Button>
-          {/* </Link> */}
+          </Link>
         </div>
       </div>
     </Card>

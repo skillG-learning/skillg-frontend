@@ -27,7 +27,7 @@ function SkillGText() {
                     </p>
                 </div>
                 <div className="mt-3 sm:mt-5">
-                    <button className="bg-blue-500 text-white px-4 py-2 rounded">Book A Free Trial</button>
+                    <button className="bg-[#001650] text-white px-4 py-2 rounded">Book A Free Trial</button>
                 </div>
             </div>
 
