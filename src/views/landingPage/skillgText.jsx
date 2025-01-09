@@ -23,7 +23,7 @@ function SkillGText() {
                 </div>
                 <div className="mt-3 sm:mt-5">
                     <p className="text-base sm:text-lg mt-[20px] text-gray-800">
-                       An unique collaboration of IIT, IISC and IIT Alumni to empower next generation skills/Powerful collaboration of IIT, IISc, and IIT alumni to shape the next generation of tech leaders
+                       An unique collaboration of IIT, IISC and NIT Alumni to empower young minds with next generation skills
                     </p>
                 </div>
                 <div className="mt-3 sm:mt-5">
